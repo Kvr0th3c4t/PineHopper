@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 80vh;
+    background-color: var(--dark-bg);
+}
+.swiperContainer{
+    min-width: 100%;
+    min-height: 80vh;
+    background: var(--gradient-purple-pink);
+}
+
+.swiperContainer h4{
+    font-family: 'Audiowide';
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--primary-blue-light);
+    padding: 20px 0 0 30px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}

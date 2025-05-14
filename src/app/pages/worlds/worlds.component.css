@@ -1,0 +1,158 @@
+.swiper-wrapper{
+    background-color: var(--dark-bg);
+}
+
+.swiperContainer{
+    background: var(--gradient-purple-pink);
+}
+
+.swiperContainer h4{
+    font-family: 'Audiowide';
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--primary-blue-light);
+    padding: 20px 0 0 30px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-bg);
+}
+
+.container-general {
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+    height: 80%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.8s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+.item-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent);
+    color: white;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    text-align: left;
+}
+
+.item:hover .item-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.item-caption h2 {
+    margin: 0 0 10px 0;
+    font-size: 2rem;
+    color: var(--primary-pink, #FF7CAE);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.item-caption p {
+    margin: 0;
+    font-size: 1rem;
+    max-width: 600px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+.wrap-effect-3 .item:hover {
+    animation: rotate 0.7s ease-in-out both;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.wrap-effect-3 .item:first-of-type {
+    background-image: url('/assets/webImages/tutorial.webp');
+}
+
+.wrap-effect-3 .item:nth-of-type(2) {
+    background-image: url('/assets/webImages/Stage1.webp');
+}
+
+.wrap-effect-3 .item:nth-of-type(3) {
+    background-image: url('/assets/webImages/Stage2.webp');
+}
+
+.wrap-effect-3 .item:nth-of-type(4) {
+    background-image: url('/assets/webImages/FinalStage.webp');
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: rotate(10deg) translate3d(0, 0, 0);
+    }
+
+    50% {
+        transform: rotate(-10deg) translate3d(0, 0, 0);
+    }
+
+    75% {
+        transform: rotate(5deg) translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: rotate(0deg) translate3d(0, 0, 0)
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery-wrap {
+        flex-direction: column;
+    }
+
+    .item {
+        flex: 1;
+    }
+
+    .item:hover {
+        flex: 3;
+    }
+
+    .item-caption h3 {
+        font-size: 1.2rem;
+    }
+
+    .item-caption p {
+        font-size: 0.8rem;
+    }
+}

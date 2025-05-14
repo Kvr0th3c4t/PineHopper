@@ -1,0 +1,21 @@
+.container{
+    min-width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-bg);
+}
+.gameContainer{
+    min-width: 100%;
+    background: var(--gradient-purple-pink);
+}
+
+.gameContainer h4 {
+    font-family: 'Audiowide';
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--primary-blue-light);
+    padding: 20px 0 0 30px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,46 @@
+<div class="character-display-container">
+    <div class="cards-column">
+        <swiper-container #swiper init="false">
+            <swiper-slide>
+                <h3 class="card-title">PINEHOPPER</h3>
+                <div class="card-image-container">
+                    <img class="PHCard" src="/assets/webImages/pinehopper.webp">
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <h3 class="card-title">SLIME</h3>
+                <div class="card-image-container">
+                    <img class="SCard" src="/assets/webImages/Slime.webp">
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <h3 class="card-title">MACE</h3>
+                <div class="card-image-container">
+                    <img class="MCard" src="/assets/webImages/Mace.webp">
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <h3 class="card-title">"THE BOSS"</h3>
+                <div class="card-image-container">
+                    <img class="BCard" src="/assets/webImages/Boss.webp">
+                </div>
+            </swiper-slide>
+            <div class="swiper-instructions mt-5">
+                <div class="instructions-box">
+                    <i class="hand-icon">👆</i>
+                    <span>Arrastra para cambiar de personaje</span>
+                </div>
+            </div>
+        </swiper-container>
+        
+    </div>
+    
+    <div class="description-column">
+        <div class="character-description" id="character-description">
+            <h2 class="description-title">{{currentCharacterName}}</h2>
+            <div class="description-content">
+                <p>{{currentCharacterDescription}}</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,76 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'pixel';
+    src: url('/assets/font/monogram.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Audiowide';
+    src: url('/assets/font/Audiowide-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* Colores principales de la paleta */
+    --primary-blue: #00BDE0;
+    /* Azul turquesa brillante */
+    --primary-purple: #AF3AB1;
+    /* Púrpura vibrante */
+    --primary-pink: #FF7CAE;
+    /* Rosa neón */
+    --primary-dark-purple: #7B1A90;
+    /* Púrpura oscuro */
+
+    /* Versión más clara del negro para fondos */
+    --dark-bg: #121212;
+    /* Negro suavizado para fondos */
+
+    /* Blanco con matiz rosado */
+    --light-pink-white: #FFF5F8;
+    /* Blanco con un sutil tinte rosado */
+
+    /* Colores derivados y variaciones para la interfaz */
+    --primary-blue-light: #33CBEA;
+    /* Versión más clara del azul principal */
+    --primary-blue-dark: #009EB8;
+    /* Versión más oscura del azul principal */
+
+    --primary-purple-light: #C156C3;
+    /* Versión más clara del púrpura */
+    --primary-purple-dark: #8E2E90;
+    /* Versión más oscura del púrpura */
+
+    --primary-pink-light: #FF9DBD;
+    /* Versión más clara del rosa */
+    --primary-pink-dark: #FF5B9D;
+    /* Versión más oscura del rosa */
+
+    /* Colores de acento y utilidad */
+    --accent-color: #00E676;
+    /* Verde vibrante para acentos/botones activos */
+    --warning-color: #FFD600;
+    /* Amarillo para advertencias */
+    --error-color: #FF3D71;
+    /* Rojo para errores */
+
+    /* Gradientes predefinidos */
+    --gradient-purple-blue: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-blue) 100%);
+    --gradient-blue-pink: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-pink) 100%);
+    --gradient-purple-pink: linear-gradient(135deg, var(--primary-dark-purple) 0%, var(--primary-pink) 100%);
+
+    /* Variables para texto */
+    --text-dark: #212121;
+    /* Para texto sobre fondos claros */
+    --text-light: var(--light-pink-white);
+    /* Para texto sobre fondos oscuros */
+    --text-muted: #757575;
+    /* Para texto secundario o de menor importancia */
+}
+
+body {
+    font-family: 'pixel', 'Audiowide';
+    height: 100vh;
+    background-color: var(--primary-blue-dark) !important;
+}

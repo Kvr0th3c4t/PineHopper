@@ -1,0 +1,36 @@
+<section class="heroSection mt-2">
+    <div class="divFondo">
+        <div class="heroContent">
+            <h1 class="heroTitle">¡SALTA A LA AVENTURA!</h1>
+            <p class="heroSubtitle">Explora mundos mágicos con el conejo más valiente</p>
+            <button class="btnPlay" [routerLink]="['/game']">JUGAR AHORA</button>
+        </div>
+    </div>
+</section>
+
+<section class="features-section mt-2">
+    <h2 class="section-title">CARACTERÍSTICAS DESTACADAS</h2>
+    <div class="row">
+        @for(feature of features; track feature.title) {
+        <div class="col-12 col-md-6 col-lg-4">
+            <app-feature-card [myFeature]="feature"></app-feature-card>
+        </div>
+        }
+    </div>
+</section>
+
+<section class="news-section mt-2">
+    <h2 class="section-title">ÚLTIMAS NOTICIAS</h2>
+    <div class="news-container">
+        <div class="news-card">
+            <div class="news-date">25 ABRIL 2025</div>
+            <h3>¡Lanzamiento oficial de PineHopper!</h3>
+            <p>Comienza tu aventura desde hoy.</p>
+        </div>
+    </div>
+</section>
+
+<section class="ctaSection mt-2">
+    <h2 class="heroTitle">¿Listo para jugar?</h2>
+    <button class="btnPlay" [routerLink]="['/game']">¡JUEGA YA!</button>
+</section>
