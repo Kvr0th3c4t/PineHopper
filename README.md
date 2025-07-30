@@ -26,13 +26,13 @@
 ## 📸 Capturas de pantalla
 
 ### Página Principal
-![Página Principal](./screenshots/PineHopper.png)
+![Página Principal](./screenshots/PinneHopper.png)
 
 ### Personajes
 ![Personajes](./screenshots/personajes.png)
 
 ### Mundos
-![Mundos](./screenshots/mundos.pngp)
+![Mundos](./screenshots/mundos.png)
 
 ### Juego
 ![Juego](./screenshots/juego.png)
