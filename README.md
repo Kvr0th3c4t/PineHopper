@@ -26,16 +26,16 @@
 ## 📸 Capturas de pantalla
 
 ### Página Principal
-![Página Principal](./public/assets/webImages/pinehopper.webp)
+![Página Principal](./screenshots/PineHopper.png)
 
-### Tutorial del Juego
-![Tutorial](./public/assets/webImages/tutorial.webp)
+### Personajes
+![Personajes](./screenshots/personajes.png)
 
-### Gameplay - Stage 1
-![Stage 1](./public/assets/webImages/Stage1.webp)
+### Mundos
+![Mundos](./screenshots/mundos.pngp)
 
-### Boss Final
-![Boss Final](./public/assets/webImages/Boss.webp)
+### Juego
+![Juego](./screenshots/juego.png)
 
 ## 🛠️ Tecnologías utilizadas
 
