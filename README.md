@@ -227,7 +227,7 @@ La aplicación está desplegada en un servidor VPS privado:
 Si encuentras algún bug o tienes sugerencias:
 
 1. Verifica que no exista un issue similar
-2. Crea un [nuevo issue](https://github.com/tuusuario/PineHopper/issues)
+2. Crea un [nuevo issue](https://github.com/Kvr0th3c4t/PineHopper/issues)
 3. Proporciona toda la información relevante
 
 ## 📝 Licencia
@@ -250,10 +250,10 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE](LICENSE) pa
 
 ## 📊 Estado del proyecto
 
-![GitHub issues](https://img.shields.io/github/issues/tuusuario/PineHopper)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/tuusuario/PineHopper)
-![GitHub stars](https://img.shields.io/github/stars/tuusuario/PineHopper)
-![GitHub forks](https://img.shields.io/github/forks/tuusuario/PineHopper)
+![GitHub issues](https://img.shields.io/github/issues/Kvr0th3c4t/PineHopper)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Kvr0th3c4t/PineHopper)
+![GitHub stars](https://img.shields.io/github/stars/Kvr0th3c4t/PineHopper)
+![GitHub forks](https://img.shields.io/github/forks/Kvr0th3c4t/PineHopper)
 
 ---
 
